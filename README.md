@@ -3,7 +3,7 @@
 ## 🚩 Como participar
 
 Você deverá criar uma aplicação em qualquer linguagem<br>
-Crie uma pasta com o nome da linguagem(se for mais de uma coloque a principal), dentro dela crie outra pasta com o nome do "desafio", e crie um arquivo .md e a pasta do projeto.<br>
+Crie uma pasta com o nome da linguagem(se for mais de uma coloque a principal), dentro dela crie outra pasta com o nome do "desafio" e crie um arquivo .md e a pasta do projeto.<br>
 No arquivo .md explique a aplicação e coloque referências para estudo/pesquisa(preferência em PT-BR). <br>
 
 ### Exemplos:
