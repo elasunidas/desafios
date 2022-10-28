@@ -1,0 +1,119 @@
+*{
+  font-family: 'Source Code Pro', monospace;
+}
+
+#picture {
+  width: 600px;
+  height: 500px;
+  margin-right: 1rem;
+  border-radius: 5px;
+  border: 1px solid  #f1d49e;
+}
+.desc {
+  width: 600px;
+  margin-left: 50px;
+  border-radius: 5px;
+  padding-left: 20px;
+  background-color: rgb(96, 77, 115);
+  color: #f1d49e
+}
+article {
+  margin-top: 50px;
+  float: left; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+.info {
+  margin-left: 50px;
+}
+
+h1 {
+  color: #f1d49e;
+  text-align: center;
+}
+
+.pesquisa {
+  margin-top: 3vw;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input {
+  margin-left: 10rem;
+  border-radius: 5px;
+  border: 30px;
+  width: 8rem;
+  height: 1.9rem;
+  padding-left: 1rem;
+  background-color: #f1d49e;
+}
+
+button {
+  height: 2rem;
+  width: 9.5rem;
+  margin-left: 80px;
+  border-radius: 20px;
+  border: 30px;
+  background-color: rgb(96, 77, 115);
+  color: #f1d49e;
+}
+
+button:hover {
+  background-color: #9d814d;
+  color: black;
+
+}
+
+.imagem {
+  max-width: 900px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+
+.lua {
+  position: absolute;
+  margin: auto;
+  right: 80px;
+  width: 100px;
+  height: 100px;
+
+  background-color: transparent;
+  border-radius: 50px;
+  box-shadow: 20px 10px 0px 0px #f1d49e;
+}
+
+.espaco-estrelas {
+  background: rgb(31, 21, 43) center / 200px 200px round;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.estrelas {
+  background-image:
+    radial-gradient(1px 1px at 25px 5px,
+      white,
+      rgba(255, 255, 255, 0)),
+    radial-gradient(1px 1px at 50px 25px,
+      white,
+      rgba(255, 255, 255, 0)),
+    radial-gradient(1px 1px at 125px 20px,
+      white,
+      rgba(255, 255, 255, 0)),
+    radial-gradient(1.5px 1.5px at 50px 75px,
+      white,
+      rgba(255, 255, 255, 0)),
+    radial-gradient(2px 2px at 15px 125px,
+      white,
+      rgba(255, 255, 255, 0)),
+    radial-gradient(2.5px 2.5px at 110px 80px,
+      white,
+      rgba(255, 255, 255, 0));
+}
