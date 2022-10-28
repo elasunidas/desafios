@@ -25,3 +25,7 @@ GET <https://api.nasa.gov/planetary/apod&date=AAAA-MM-DD>
 
 - <https://sophiali.dev/javascript-fetch-api-with-nasa-api>
 - <https://acervolima.com/como-obter-dados-de-agencias-federais-da-nasa-usando-as-apis-publicas-da-nasa/>
+
+### Exemplo de uma pesquisa com sucesso
+
+![imagem exemplo](/javascript/api-nasa/app-api/img/exemplo.png)
