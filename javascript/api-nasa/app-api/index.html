@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles.css">
+  <title>API - Nasa</title>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <section class="container-lua espaco-estrelas estrelas">
+    <div class="lua"></div>
+    <h1>Pesquise uma imagem de astronomia pela data - APOD</h1>
+
+    <div class="pesquisa">
+      <input type="date" id="dataImagem"></input>
+      <button onclick="pesquisarImagem()">Buscar Imagem</button>
+    </div>
+
+    <article class="info">
+      <div class="imagem">
+        <img src="" id="picture" />
+      </div>
+      <div class="desc">
+        <p id="msnError"></p>
+        <p id="title"><strong>Titulo:</strong></p>
+        <p id="date"><strong>Data:</strong></p>
+        <p id="explanation"><strong>Explicação:</strong></p>
+      </div>
+    </article>
+  </section>
+</body>
+
+</html>
