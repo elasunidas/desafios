@@ -3,6 +3,7 @@ const api_key = "o0Gj2vkpNJxv2ftUnj6TWwiuLdinVHkuOt93LphB";
 
 function pesquisarImagem() {
   let dataImagem = document.getElementById("dataImagem").value;
+  console.log(dataImagem)
   fetchNASAData();
 }
 
